@@ -26,7 +26,6 @@ async function run() {
         const usersCollectinos = database.collection("users");
 
 
-        // create a document to insert
 
         // GET API 
         app.get("/users", async (req, res) => {
