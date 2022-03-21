@@ -26,7 +26,6 @@ async function run() {
         const usersCollectinos = database.collection("users");
 
 
-
         // GET API 
         app.get("/users", async (req, res) => {
             const cursor = usersCollectinos.find({});
